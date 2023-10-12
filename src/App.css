@@ -1,38 +1,189 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: 'Cookie-Regular';
+  src: url(./fonts/Cookie-Regular.ttf);
+}
+@font-face {
+  font-family: 'Lobster-Regular';
+  src: url(./fonts/Lobster-Regular.ttf);
+}
+:root{
+  --bs-pur:#2e003c;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bg_purple{
+  background: var(--bs-pur) !important;
+}
+/* h4{
+  font-family: 'Cookie-Regular';
+  font-size: 30px !important;
+} */
+
+
+h2,h3{
+  font-family: 'Lobster-Regular';
+  font-size: 50px !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav1, .nav2, .nav3, .nav4{
+  height: 30vh !important;
+  /* position: inherit !important; */
+}
+.menuBurger{
+  height: 3.5vmax !important;
+}
+.carousel-item img{
+  height:90vh;
+  object-fit: cover;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.card_items_bg{
+  background-image: url('../src/components/images/car4.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card_items .card img{
+height: 150px;
+object-fit: cover;
+}
+
+.image-gallery img{
+  width:30%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.image-category-filter select:focus{
+outline: 0;
+}
+
+.border_dashed{
+  border-bottom: 1px dashed;
+}
+
+#category_btns img{
+  width:50px;
+}
+
+
+.our_team{
+  background-color:#fff2df;
+}
+
+button.owl-prev, button.owl-next{
+  position: absolute;
+    top: 39%;
+    font-size: 35px !important;
+    color: #fff!important;
+    background: #036060!important;
+    height: 45px;
+    width: 45px;
+    display: flex!important;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%!important;
+}
+button.owl-prev{
+  left: -31px;
+}
+button.owl-next{
+  right: -31px;
+}
+button.owl-prev span,button.owl-next span{
+  margin-bottom: 9px;
+}
+
+/* Your regular navigation bar styles */
+.nav_bar {
+  display: none;
+  color: #fff;
+  padding: 20px;
+  transition: background-color 0.3s ease;
+  z-index: 999;
+}
+
+/* Sticky navigation bar styles */
+.nav_bar.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: var(--bs-purple); /* Change to your desired background color */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Optional: Add a shadow */
+}
+
+.about_header{
+  background-image: url('../src/components/images/car4.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.category-buttons{
+  display: none;
+}
+
+.con_card_icon {
+  top: -40px;
+  width: 70px;
+  height: 70px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  border-radius: 50%;
+  left: 36%;
+}
+.carousel-caption{
+  text-align: left !important;
+  top: 30%;
+  z-index: 1;
+}
+.carousel-caption h3{
+  font-size: 50px;
 }
 
-.App-link {
-  color: #61dafb;
+.banner_car::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #3a31318a;
+}
+#product_items .card{
+  transition: all 0.3s ease-in-out;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#product_items .card:hover{
+  box-shadow: 0px 0px 8px #8382829a;
+}
+
+
+.nav_band_logo,.footer_logo img{
+  width:50px
+}
+
+
+.nav-link{
+  font-weight: 600 !important;
+    font-size: 20px !important;
+}
+
+.page_menu .w-25.p-3{
+  width: 100% !important;
+  height: 300px !important;
+
+}
+.page_menu .card{
+  flex-direction: column !important;
+  height: 450px;
+  border:1px solid #036060 !important;
+  padding: 0 !important;
+}
+.page_menu .card span{
+  display: none !important;
+}
+.page_menu button img{
+  display: none;
 }
