@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/frontend/static/css/main.c9d87479.css",
+    "main.js": "/frontend/static/js/main.13b44465.js",
+    "static/media/logo.jpg": "/frontend/static/media/logo.b4d3048acf58807a1789.jpg",
+    "static/media/Lobster-Regular.ttf": "/frontend/static/media/Lobster-Regular.03c38496322925fec242.ttf",
+    "static/media/car1.jpg": "/frontend/static/media/car1.96e1f898a77c235fd6a5.jpg",
+    "static/media/car3.jpg": "/frontend/static/media/car3.855a5d2e94b1816476d9.jpg",
+    "static/media/car4.jpg": "/frontend/static/media/car4.ad8c0220d51954a12062.jpg",
+    "static/media/noodles.jpg": "/frontend/static/media/noodles.b8585e7501da4a13f0b6.jpg",
+    "static/media/pancake.jpg": "/frontend/static/media/pancake.2dbc062238c81b17912a.jpg",
+    "static/media/pizza.jpg": "/frontend/static/media/pizza.bc4a5ecfc776356e26b7.jpg",
+    "static/media/Cookie-Regular.ttf": "/frontend/static/media/Cookie-Regular.f7a638e09e95aca4ac87.ttf",
+    "static/media/pic3.jpg": "/frontend/static/media/pic3.482df9498ce5bc24e23a.jpg",
+    "static/media/fast-food.png": "/frontend/static/media/fast-food.f69fa4942a666aa53712.png",
+    "static/media/pic4.jpg": "/frontend/static/media/pic4.d44c9cfc10bc84a5005b.jpg",
+    "static/media/pic2.jpg": "/frontend/static/media/pic2.7b999507ed0f0975132f.jpg",
+    "static/media/pic1.jpg": "/frontend/static/media/pic1.b278fae039f6b6cc5fe8.jpg",
+    "index.html": "/frontend/index.html",
+    "main.c9d87479.css.map": "/frontend/static/css/main.c9d87479.css.map",
+    "main.13b44465.js.map": "/frontend/static/js/main.13b44465.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c9d87479.css",
+    "static/js/main.13b44465.js"
+  ]
+}
