@@ -11,7 +11,7 @@ const OurMenu = ({items}) => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch('http://localhost/cafe/backend/cafeApi/getAllItems')
+    fetch('http://kyletest.in/cafe/backend/cafeApi/getAllItems')
       .then(response => response.json())
       .then(data => {
         console.log(data); // Handle the data received from the API

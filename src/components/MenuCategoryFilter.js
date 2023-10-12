@@ -23,7 +23,7 @@ const MenuCategoryFilter = ({ categories, selectedCategory, onSelectCategory }) 
             className={`btn border-0 bg-transparent d-flex flex-column align-items-center fw-bold ${selectedCategory === categoryObject.category ? 'btn-warning' : 'btn-outline-warning'}`}
             onClick={() => onSelectCategory(categoryObject.category)}
           >
-            <img src={`http://localhost/cafe/backend/${categoryObject.catImg}`} alt='cat' />
+            <img src={`http://kyletest.in/cafe/backend/${categoryObject.catImg}`} alt='cat' />
             {categoryObject.category}
             {/* Log the image URL for debugging */}
             {console.log(categoryObject.catImg)}
