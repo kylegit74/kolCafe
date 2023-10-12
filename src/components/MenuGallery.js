@@ -19,7 +19,7 @@ const MenuGallery = ({ data }) => { // Updated the prop name to 'data'
         data.map(item => (
           <Menu
             key={item.id}
-            imageUrl={`http://localhost/cafe/backend/${item.image}`} 
+            imageUrl={`http://kyletest.in/cafe/backend/${item.image}`} 
             itemName={item.food_name}
             itemPrice={item.price}
             itemDescription={item.short_des}
