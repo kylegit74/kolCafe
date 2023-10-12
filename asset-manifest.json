@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/kolCafe/static/css/main.990c8af8.css",
-    "main.js": "/kolCafe/static/js/main.110c08c9.js",
+    "main.js": "/kolCafe/static/js/main.07e8003b.js",
     "static/media/logo.jpg": "/kolCafe/static/media/logo.b4d3048acf58807a1789.jpg",
     "static/media/Lobster-Regular.ttf": "/kolCafe/static/media/Lobster-Regular.03c38496322925fec242.ttf",
     "static/media/car1.jpg": "/kolCafe/static/media/car1.96e1f898a77c235fd6a5.jpg",
@@ -18,10 +18,10 @@
     "static/media/pic1.jpg": "/kolCafe/static/media/pic1.b278fae039f6b6cc5fe8.jpg",
     "index.html": "/kolCafe/index.html",
     "main.990c8af8.css.map": "/kolCafe/static/css/main.990c8af8.css.map",
-    "main.110c08c9.js.map": "/kolCafe/static/js/main.110c08c9.js.map"
+    "main.07e8003b.js.map": "/kolCafe/static/js/main.07e8003b.js.map"
   },
   "entrypoints": [
     "static/css/main.990c8af8.css",
-    "static/js/main.110c08c9.js"
+    "static/js/main.07e8003b.js"
   ]
 }
