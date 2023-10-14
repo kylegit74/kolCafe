@@ -167,7 +167,7 @@ button.owl-prev span,button.owl-next span{
 
 .nav-link{
   font-weight: 600 !important;
-    font-size: 20px !important;
+    font-size: 16px !important;
 }
 
 .page_menu .w-25.p-3{
@@ -186,4 +186,20 @@ button.owl-prev span,button.owl-next span{
 }
 .page_menu button img{
   display: none;
+}
+
+/*  */
+.banner_video{
+  height: 600px;
+}
+.banner_video video{
+  object-fit: cover;
+  height: 100%;
+}
+.react-player__preview{
+  justify-content: end !important;
+  align-items: end !important;
+}
+.bg_theme_light{
+  background: #3d271e4f;
 }

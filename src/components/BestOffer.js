@@ -6,11 +6,11 @@ import {CgPushUp} from 'react-icons/cg';
 const BestOffer = () => {
   return (
     <>
-    <section className='best_offer py-5 shadow'>
+    <section className='best_offer shadow bg_theme_light'>
         <div className='container'>
             <div className='row py-5'>
                 <div className='col-xl-4'>
-                    <div className='card border-0 flex-row align-items-center justify-content-between'>
+                    <div className='card bg-transparent border-0 flex-row align-items-center justify-content-between'>
                         <div className='offer_icon fs-1 mb-2 bg_purple text-white shadow px-1 pb-2'>                       
                             <FaTicketAlt/>       
                         </div>
@@ -21,7 +21,7 @@ const BestOffer = () => {
                     </div>
                 </div>   
                 <div className='col-xl-4'>
-                <div className='card border-0 flex-row align-items-center justify-content-between'>
+                <div className='card bg-transparent border-0 flex-row align-items-center justify-content-between'>
                         <div className='offer_icon fs-1 mb-2 bg_purple text-white shadow px-1 pb-2'>
                          <CgIcecream/>
                         </div>
@@ -32,7 +32,7 @@ const BestOffer = () => {
                     </div>
                 </div>
                 <div className='col-xl-4'>
-                <div className='card border-0 flex-row align-items-center justify-content-between'>
+                <div className='card bg-transparent border-0 flex-row align-items-center justify-content-between'>
                         <div className='offer_icon fs-1 mb-2 bg_purple text-white shadow px-1 pb-2'>
                         <CgPushUp/>
                         </div>

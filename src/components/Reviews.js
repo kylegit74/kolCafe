@@ -3,14 +3,14 @@ import React from 'react'
 const Reviews = () => {
   return (
     <>
-        <div className='reviews py-5'>
+        <div className='reviews py-5 bg_theme_light'>
             
             <div className='container'>
                 <div className='row'>
                     <div className='col-xl-6'>
                     <h3 className='pb-5'>Reviews</h3>
                     <div className='card border-0'>
-                    <iframe title='Instagram Feed' src='https://widgets.sociablekit.com/instagram-feed/iframe/194923' width='100%' height='600'></iframe>
+                    <iframe title='Instagram Feed' src='https://widgets.sociablekit.com/instagram-feed/iframe/194923' width='100%' height='400'></iframe>
                     </div>
 
                     </div>
