@@ -8,6 +8,7 @@ import ReserveForm from '../components/ReserveForm';
 import BestOffer from '../components/BestOffer';
 import MainLayout from '../layout/MainLayout';
 import VideoBanner from '../components/VideoBanner.js';
+import TodaySpecial from '../components/TodaySpecial.js';
 
 const Home = () => {
   return (
@@ -15,7 +16,7 @@ const Home = () => {
       <VideoBanner/>
       {/* <Banner/> */}
       <BestOffer/> 
-      
+      <TodaySpecial/>
       <OurMenu/>
       <Team/>
       {/* <CafeItemList/> */}

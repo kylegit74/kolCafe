@@ -1,11 +1,11 @@
 import React from 'react';
-import logo from '../components/images/logo.jpg';
+import logo from '../components/images/logo_bg_none.png';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
     <>
-    <footer className='bg_purple'>
+    <footer>
         <div className='uppperFooter py-5'>
             <div className='container'>
                 <div className='row align-items-center'>
@@ -19,9 +19,9 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className='col-xl-3'>
-                        <div className='card text-white bg-transparent border-0 ps-5'>
-                            <h4>Quick Links</h4>
-                            <ul className='list-unstyled'>
+                        <div className='card text-white bg-transparent border-0 ps-5 gap-3'>
+                            <h4 className='border-bottom'>Quick Links</h4>
+                            <ul className='list-unstyled ft_li'>
                                 <li>
                                     <Link className='text-decoration-none text-white' to=''>Menu Card</Link>
                                 </li>
@@ -36,9 +36,9 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className='col-xl-3'>
-                    <div className='card text-white bg-transparent border-0 ps-5'>
-                            <h4>Menu</h4>
-                            <ul className='list-unstyled'>
+                    <div className='card text-white bg-transparent border-0 ps-5 gap-3'>
+                            <h4 className='border-bottom'>Menu</h4>
+                            <ul className='list-unstyled ft_li'>
                                 <li>
                                     <Link className='text-decoration-none text-white' to=''>Pizza</Link>
                                 </li>
@@ -53,9 +53,9 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className='col-xl-3'>
-                    <div className='card text-white bg-transparent border-0 ps-5'>
-                            <h4>Contact Us</h4>
-                            <ul className='list-unstyled'>
+                    <div className='card text-white bg-transparent border-0 ps-5 gap-3'>
+                            <h4 className='border-bottom'>Contact Us</h4>
+                            <ul className='list-unstyled ft_li'>
                                 <li>
                                     Mobile No: <Link className='text-decoration-none text-white' to=''>7584587585</Link>
                                 </li>
@@ -72,8 +72,11 @@ const Footer = () => {
                 </div>
             </div>
         </div>
-        <div className='lowerFooter'>
-
+        <div className='lowerFooter container border-top'>
+            <div className='d-flex justify-content-between align-items-center py-3'>
+                <div><p className='text-white m-0'>© 2023 Cafe Kolkata. All rights reserved.</p></div>
+                <div><p className='text-white m-0'>Designed & developed by Kyle Infotech</p></div>
+            </div>
         </div>
     </footer>
     </>

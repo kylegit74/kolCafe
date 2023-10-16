@@ -35,11 +35,11 @@ const options = {
 
 const Team = () => {
   return (
-    <div className='bg_purple mb-5'>
+    <div className='bg_yw mb-5 team_bg'>
 
         <div className='container py-5'>
 
-            <h3 className='pb-5 text-center text-white'>Master Chefs</h3>
+            <h3 className='pb-5 text-center'>Master Chefs</h3>
         <OwlCarousel {...options} className='owl-theme' loop margin={10} nav>
             <div className='item'>
                 <div className='card border-0'>
