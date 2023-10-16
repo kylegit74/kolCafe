@@ -1,13 +1,22 @@
 {
   "files": {
-    "main.css": "/kolCafe/static/css/main.0d3310c9.css",
-    "main.js": "/kolCafe/static/js/main.42bce8ba.js",
+    "main.css": "/kolCafe/static/css/main.91b95976.css",
+    "main.js": "/kolCafe/static/js/main.dba59b25.js",
     "static/media/background_cafe.mp4": "/kolCafe/static/media/background_cafe.52545d68708a369d4ecd.mp4",
+    "static/media/banner_food.png": "/kolCafe/static/media/banner_food.6c7cb70b59f14f3a4f6c.png",
+    "static/media/banner_drink_2.jpg": "/kolCafe/static/media/banner_drink_2.021954be4644522ebd52.jpg",
+    "static/media/banner_drink_tran.png": "/kolCafe/static/media/banner_drink_tran.5cc8d52fe62b0168801f.png",
+    "static/media/about_resturant.jpg": "/kolCafe/static/media/about_resturant.6beffe3b3f9cdea8e98d.jpg",
     "static/media/banner_video_thumbnill.png": "/kolCafe/static/media/banner_video_thumbnill.8cc9c33299a8a891617f.png",
-    "static/media/logo.jpg": "/kolCafe/static/media/logo.b4d3048acf58807a1789.jpg",
+    "static/media/about_food.jpg": "/kolCafe/static/media/about_food.01764161f24ced103ec2.jpg",
+    "static/media/logo_bg_none.png": "/kolCafe/static/media/logo_bg_none.807c8ee32800f00e7299.png",
+    "static/media/bg_1.png": "/kolCafe/static/media/bg_1.de87d8356d840ccb069c.png",
     "static/media/Lobster-Regular.ttf": "/kolCafe/static/media/Lobster-Regular.03c38496322925fec242.ttf",
+    "static/media/PlayfairDisplay-VariableFont_wght.ttf": "/kolCafe/static/media/PlayfairDisplay-VariableFont_wght.20240034b80f50c3ad00.ttf",
     "static/media/car4.jpg": "/kolCafe/static/media/car4.ad8c0220d51954a12062.jpg",
     "static/media/noodles.jpg": "/kolCafe/static/media/noodles.b8585e7501da4a13f0b6.jpg",
+    "static/media/YoungSerif-Regular.ttf": "/kolCafe/static/media/YoungSerif-Regular.564996966d3552bf6282.ttf",
+    "static/media/team.png": "/kolCafe/static/media/team.ecc418a8114d80c8d921.png",
     "static/media/pancake.jpg": "/kolCafe/static/media/pancake.2dbc062238c81b17912a.jpg",
     "static/media/pizza.jpg": "/kolCafe/static/media/pizza.bc4a5ecfc776356e26b7.jpg",
     "static/media/Cookie-Regular.ttf": "/kolCafe/static/media/Cookie-Regular.f7a638e09e95aca4ac87.ttf",
@@ -17,11 +26,11 @@
     "static/media/pic2.jpg": "/kolCafe/static/media/pic2.7b999507ed0f0975132f.jpg",
     "static/media/pic1.jpg": "/kolCafe/static/media/pic1.b278fae039f6b6cc5fe8.jpg",
     "index.html": "/kolCafe/index.html",
-    "main.0d3310c9.css.map": "/kolCafe/static/css/main.0d3310c9.css.map",
-    "main.42bce8ba.js.map": "/kolCafe/static/js/main.42bce8ba.js.map"
+    "main.91b95976.css.map": "/kolCafe/static/css/main.91b95976.css.map",
+    "main.dba59b25.js.map": "/kolCafe/static/js/main.dba59b25.js.map"
   },
   "entrypoints": [
-    "static/css/main.0d3310c9.css",
-    "static/js/main.42bce8ba.js"
+    "static/css/main.91b95976.css",
+    "static/js/main.dba59b25.js"
   ]
 }
