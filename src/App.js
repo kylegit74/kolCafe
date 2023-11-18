@@ -13,7 +13,6 @@ import Home from './pages/Home.js';
 
 
 function App() {
-
   return (
     <Router>
       <Routes>
@@ -24,9 +23,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </Router>
-    
-   
-  );
+  );  
 }
 
 export default App;

@@ -11,7 +11,7 @@ const MenuCategoryFilter = ({ categories, selectedCategory, onSelectCategory }) 
     <div className="image-category-filter text-center py-5">
       <div id='category_btns' className='d-flex justify-content-center gap-4 category-buttons'>
         <button
-          className={`btn border-0 bg-transparent d-flex flex-column align-items-center fw-bold ${selectedCategory === '' ? 'btn-warning' : 'btn-outline-warning'}`}
+          className={`btn bg-transparent d-flex flex-column align-items-center fw-bold ${selectedCategory === '' ? 'btn_dashed_golden' : 'btn_dashed_dark'}`}
           onClick={() => onSelectCategory('')}
         >
           <img src={fastFood} alt='all' />
@@ -20,7 +20,7 @@ const MenuCategoryFilter = ({ categories, selectedCategory, onSelectCategory }) 
         {filteredCategories.map(categoryObject => (
           <button
             key={categoryObject.category}
-            className={`btn border-0 bg-transparent d-flex flex-column align-items-center fw-bold ${selectedCategory === categoryObject.category ? 'btn-warning' : 'btn-outline-warning'}`}
+            className={`btn bg-transparent d-flex flex-column align-items-center fw-bold ${selectedCategory === categoryObject.category ? 'btn_dashed_golden' : 'btn_dashed_dark'}`}
             onClick={() => onSelectCategory(categoryObject.category)}
           >
             <img src={`https://kyletest.in/cafe/${categoryObject.catImg}`} alt='cat' />

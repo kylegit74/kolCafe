@@ -1,6 +1,6 @@
 {
-  "name": "frontend",
-  "homepage": "https://kylegit74.github.io/kolCafe",
+  "name": "dosacafe",
+  "homepage": "https://kylegit74.github.io/kolCafe/",
   "version": "0.1.0",
   "private": true,
   "devDependencies": {

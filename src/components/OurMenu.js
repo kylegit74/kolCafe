@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 // import items from '../data/items';
 import MenuGallery from '../components/MenuGallery';
 import MenuCategoryFilter from '../components/MenuCategoryFilter';
+import abstract from '../components/images/abstract.png';
 
 
 
@@ -55,7 +56,12 @@ const OurMenu = ({items}) => {
 return (
   <>
   <div className='container py-5' id='product_items'>
-    <h2 className='text-center'>Our Menu</h2>
+    <div className='d-flex align-items-center justify-content-center'>
+      <img className='menu_abstarct' src={abstract}/>
+        <h2 className='text-center sig_h'>Our Menu</h2>
+      <img className='menu_abstarct' src={abstract}/>
+    </div>
+    
     <MenuCategoryFilter
       categories={categories}
       selectedCategory={selectedCategory}

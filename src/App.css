@@ -17,6 +17,26 @@
 :root{
   --bs-pur:#2e003c;
 }
+.btn_dashed_golden{
+  border:1px dashed #e7bd52 !important;
+  color: #ffb700 !important;
+}
+.btn_dashed_dark{
+  border:1px dashed #000000 !important;
+}
+img.menu_abstarct{
+  width: 200px;
+}
+
+.btn_bg_golden{
+  background: linear-gradient(45deg, #e9c156, #c16e04) !important;
+}
+.bg_golden{
+  background-color:#e7bd52 !important;
+}
+.color_golden{
+  color:#e7bd52 !important;
+}
 
 .bg_yw{
   background-color:#fff8e2 ;
@@ -32,8 +52,11 @@
 
 
 h2,h3{
-  font-family: 'Lobster-Regular';
+  /* font-family: 'Lobster-Regular'; */
   font-size: 50px !important;
+}
+.span_headline{
+  font-family:cursive;
 }
 
 .nav1, .nav2, .nav3, .nav4{
@@ -83,12 +106,13 @@ outline: 0;
   background-color:#fff2df;
 }
 
-button.owl-prev, button.owl-next{
-  position: absolute;
+
+.banner_video button.owl-prev, .banner_video button.owl-next{
+  position: absolute;  
     top: 39%;
     font-size: 35px !important;
-    color: #fff!important;
-    background: #036060!important;
+    color: #e7bd52!important;
+    background: #ffffff!important;
     height: 45px;
     width: 45px;
     display: flex!important;
@@ -96,13 +120,36 @@ button.owl-prev, button.owl-next{
     align-items: center;
     border-radius: 50%!important;
 }
-button.owl-prev{
+.banner_video button.owl-prev{
+  left: -45px;
+}
+.banner_video button.owl-next{
+  right: -45px;
+}
+.banner_video button.owl-prev span,.banner_video button.owl-next span{
+  margin-bottom: 9px;
+}
+
+.team_bg button.owl-prev, .team_bg button.owl-next{
+  position: absolute;
+    top: 39%;
+    font-size: 35px !important;
+    color: #fff!important;
+    background: linear-gradient(45deg, #e9c156, #c16e04) !important;
+    height: 45px;
+    width: 45px;
+    display: flex!important;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%!important;
+}
+.team_bg button.owl-prev{
   left: -31px;
 }
-button.owl-next{
+.team_bg button.owl-next{
   right: -31px;
 }
-button.owl-prev span,button.owl-next span{
+.team_bg button.owl-prev span,.team_bg button.owl-next span{
   margin-bottom: 9px;
 }
 
@@ -130,11 +177,9 @@ button.owl-prev span,button.owl-next span{
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 .category-buttons{
   display: none;
 }
-
 .con_card_icon {
   top: -40px;
   width: 70px;
@@ -145,9 +190,12 @@ button.owl-prev span,button.owl-next span{
   border-radius: 50%;
   left: 36%;
 }
+.owl_banner {
+  top:50px;
+}
 .carousel-caption{
   text-align: left !important;
-  top: 30%;
+  top: 33%;
   z-index: 1;
 }
 .carousel-caption h3{
@@ -165,6 +213,7 @@ button.owl-prev span,button.owl-next span{
 }
 #product_items .card{
   transition: all 0.3s ease-in-out;
+  border: 1px dashed;
 }
 
 #product_items .card:hover{
@@ -173,12 +222,11 @@ button.owl-prev span,button.owl-next span{
 
 
 .nav_band_logo{
-  width:68px;
+  width:100px;
 }
 .footer_logo img{
   width:185px;
 }
-
 
 .nav-link{
   font-weight: 600 !important;
@@ -188,7 +236,6 @@ button.owl-prev span,button.owl-next span{
 .page_menu .w-25.p-3{
   width: 100% !important;
   height: 300px !important;
-
 }
 .page_menu .card{
   flex-direction: column !important;
@@ -206,6 +253,10 @@ button.owl-prev span,button.owl-next span{
 /*  */
 .banner_video{
   height: 100vh;
+  background-image: url('./components/images/hero_bg_5_1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .banner_video video{
   object-fit: cover;
@@ -228,14 +279,20 @@ button.owl-prev span,button.owl-next span{
   width: inherit!important;
   min-width: inherit !important;
 }
-
-.team_bg{
-  background-image: url('../src/components/images/team.png');
+.form_card{
+  padding-right: 50px;
+  padding-left: 165px;
+}
+.form_card_after{
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #0000005b;
 }
 .today_special{
   position: relative;
-  border-top: 2px solid #0009;
-  border-bottom: 2px solid #0009;
 }
 .today_special::after{
   content: "";
@@ -244,7 +301,34 @@ button.owl-prev span,button.owl-next span{
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: #00000054;
+  background-color: #00000087;
+}
+.sig_h{
+  color:#c39e59;
+}
+.home_form label{
+  border-radius: 40% 60% 74% 26% / 74% 85% 15% 26%;
+  padding: 4px 15px;
+  color: #fff;
+  background: #0000006b;;
+  box-shadow: inset 2px 2px 5px #19b72d;
+}
+.home_form input, .home_form textarea{
+  background: #0006;
+  color: #fff;
+}
+.home_form input::-webkit-outer-spin-button,
+.home_form input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.home_form input::placeholder, .home_form textarea::placeholder{
+  color: #fff;
+}
+.home_form input:focus, .home_form textarea:focus{
+  color: #fff;
+  background: #0006;
+  box-shadow: none;
 }
 .today_special::before{
   content: "";
@@ -257,7 +341,6 @@ button.owl-prev span,button.owl-next span{
   background-position:center;
   background-size: cover;
   background-attachment: fixed;
-  filter: blur(4px);
 }
 footer{
   background-color: #222222;
@@ -270,12 +353,79 @@ footer{
   font-family: 'playfair';
   font-size: 60px;
 }
-.bnrFood, .bnrDrink{
-  width: 100px;
+.bnrFood{
+  width: 400px;
 }
 .aboutResturant, .aboutFood{
   width: 400px;
   height: 400px;
   object-fit: cover;
+}
+
+img.veg1{
+  width: 35px !important;
+  top: 33%;
+  left:10%;
+}
+img.veg2{
+  width: 35px !important;
+  top: 30%;
+  left:25%;
+}
+
+.nav_top_golden{
+  width: 75%;
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 2% 100%);
+}
+/* .nav_angle{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.nav_angle_position{
+  top: -4px;
+  right: 70px;
+}
+.nav_angle img{
+  width: 108px;
+} */
+.fixed-nav{
+  border-bottom: 1px solid #e7bd52;
+}
+
+.special_card::after{
+  content: "";
+  background: linear-gradient(to bottom, #ffffff00, #000000cf);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: var(--bs-border-radius-xl)!important;
+}
+.banner_offer_image img{
+  height: 400px;
+  object-fit: cover;
+}
+.color_border{
+  position: relative;
+}
+.lowerFooter::before{
+  content: "";
+  position: absolute;
+  top: -4px;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(45deg, #e4b84d 0%, transparent 90%);
+}
+.color_border::before {
+  content: "";
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(45deg, #e4b84d 0%, transparent 35%);
 }
 
